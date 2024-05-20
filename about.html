@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      />
+      <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    
+    
+    <section id="header">
+        <a href="#"> <img src="image/abuja_water.png" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+             <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+             <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+    
+    <section id="page-header" class="about-header">
+        
+        <h2>#KnowUs</h2>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisic!</p>
+        
+
+    </section>
+
+    <section id="about-head" class="section-p1">
+        <img src="image/about-img/IMG_20210317_113042_016.jpg" alt="">
+        <div>
+            <h2>Who we Are?</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ipsa recusandae
+                 aspernatur quisquam, numquam voluptates dolore excepturi pariatur adipisci hic
+                  architecto harum vitae.  Nulla saepe debitis necessitatibus eaque praesentium 
+                  veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta 
+                  error atque tempora illum fugiat corrupti dolor voluptatem repellendus voluptate
+                   corporis iure, dicta, nulla quos? Soluta incidunt eos iusto quos quisquam.
+            </p>
+            <abbr title="creat stunning images with as much or as little control as fa-youtube
+            like thanks to a choice of basic and creative modes"></abbr>
+
+            <br><br>
+
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">
+                creat stunning images with as much or as little control as fa-youtube
+            like thanks to a choice of basic and creative modes
+            </marquee>
+        </div>
+    </section>
+    
+    <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a> </h1>
+        <div class="video">
+            <video autoplay muted loop src="image/about-img/Clothing_Ad_Video_Template__Editable_(720p).mp4"></video>
+        </div>
+    </section>
+
+    
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="image/aedc.png" alt="">
+            <h6>Free shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/dstv.png" alt="">
+            <h6>Online money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/ekedc.png" alt="">
+            <h6>Save money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/abuja_water.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/gotv.png" alt="">
+            <h6>Money sell</h6>
+        </div>
+    
+    </section>
+
+    
+    
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <Span>Special Offers</Span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="image/abuja_water.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address</strong> 27 Auta stress Television, Kaduna State</p>
+            <p> <strong>Phone</strong>+234 8144625949, 90113130348</p>
+            <p> <strong>Hours</strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlists</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Apple store to Google play</p>
+            <div class="row">
+                <img src="image/google&apple footer-img/apple store.avif" alt="">
+                <img src="image/google&apple footer-img/goodle play.avif" alt="">
+                
+            
+            </div>
+            <p>Secured Payment Gateways</p>
+            
+        </div>
+        
+    </footer>
+    <script >
+        const bar = document.getElementById('bar');
+        const close = document.getElementById('close');
+        const nav = document.getElementById('navbar');
+
+if (bar) {
+  bar.addEventListener('click', () => {
+    nav.classList.add('active');
+  });
+}
+
+if (close) {
+  close.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+}
+    </script>
+</body>
+</html>
